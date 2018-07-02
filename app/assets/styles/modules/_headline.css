@@ -1,0 +1,30 @@
+.headline{
+	font-weight: 300;
+	font-size: 2.785rem;
+	color: $mainBlue;
+	&__centered{
+		text-align: center;
+	}
+	&__orange{
+		color: $mainorange;
+	}
+	&__small{
+		font-size: 1.875rem;
+		
+	}
+	&__narrow{
+		max-width: 550px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	strong{font-weight: 400}
+	&__light{
+		font-weight: 100;
+	}
+	&__b_margin_small{
+		margin-bottom: .5rem;
+	}
+	&__b_margin_large{
+		margin-bottom: 1.6em;
+	}
+}
