@@ -1,7 +1,25 @@
 .wrapper{
+	overflow: hidden;
 	padding-left: 18px;
 	padding-right: 18px;
-	max-width: 1200px;
+	max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
+
+    &__medium{
+    	max-width: 970px;
+    }
+	.wrapper{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	&__b_margin{
+		margin-bottom: 1rem;
+		} 
+	@mixin atSmall{
+		&__b_margin{
+		margin-bottom: 3.875rem;
+		}	
+	}
+	
 }

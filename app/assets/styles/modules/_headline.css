@@ -1,7 +1,10 @@
 .headline{
 	font-weight: 300;
-	font-size: 2.785rem;
+	font-size: 1.9rem;
 	color: $mainBlue;
+	@mixin atSmall{
+		font-size: 2.785rem;
+	}
 	&__centered{
 		text-align: center;
 	}
@@ -9,8 +12,10 @@
 		color: $mainorange;
 	}
 	&__small{
-		font-size: 1.875rem;
-		
+		font-size: 1.2rem;
+		@mixin atSmall{
+			font-size: 1.875rem;
+		}
 	}
 	&__narrow{
 		max-width: 550px;
