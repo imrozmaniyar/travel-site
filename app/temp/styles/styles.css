@@ -658,6 +658,10 @@ img{
 		margin-bottom: 1.6em;
 	}
 
+.headline__no_t_margin{
+		margin-top: 0;
+	}
+
 .row::after{
 		content:'';
 		clear: both;
@@ -673,7 +677,14 @@ img{
 
 	}
 
+.row__b_margin_until_medium{
+		margin-bottom: 1rem;
+	}
+
 @media (min-width: 800px){
+		.row__b_margin_until_medium{
+			margin-bottom: 0;
+		}
 		.row__medium_4{
 		float: left;
 		width: 33.333%
@@ -689,6 +700,24 @@ img{
 		width: 63%;
 		}
 	}
+
+.generic_content-container p {
+		line-height: 1.65;
+		margin: 1.8rem 0;
+	}
+
+@media (min-width: 540px){
+
+.generic_content-container{
+		font-size: 1.125rem
+}
+	}
+
+.generic_content-container p a{
+		font-weight: 700;
+		color: #d59541;
+	}
+
 
 
 
