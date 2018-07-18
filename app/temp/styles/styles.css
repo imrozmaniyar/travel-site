@@ -1330,6 +1330,20 @@ Insted edit gulp/templates/sprite*/
 	}
 	}
 
+.reveal-item{
+	opacity: 0;
+	-webkit-transition: all 1.5s ease-out;
+	transition: all 1.5s ease-out;
+	-webkit-transform: scale(1.5);
+	        transform: scale(1.5);
+}
+
+.reveal-item__is_visible{
+		opacity: 1;
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+
 
 
 
