@@ -43,6 +43,9 @@
 			padding: 12px 0;
 			font-size: 1rem;
 			background-color: transparent;
+			&.is_current_link{
+				color: #fabb69;
+			}
 		}
 	}
 }
