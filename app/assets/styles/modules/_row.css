@@ -75,7 +75,7 @@
 	
 	
 /*Begin Equal height Rule*/	
-	&__equal_height_at_medium{
+	.flexbox &__equal_height_at_medium{
 		@mixin atSmall{
 			display: flex;
 		}
@@ -84,7 +84,8 @@
 			display: flex;
 		}	
 	}
-	&__equal_height_at_large{
+
+	.flexbox &__equal_height_at_large{
 		@mixin atLarge{
 			display: flex;
 		}
